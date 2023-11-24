@@ -9,7 +9,7 @@ const Layout: React.FC<Props> = (props) => (
   <div>
     <Header />
     <div className="layout">{props.children}
-      <p>Hello world</p>
+      <p>Welcome</p>
     </div>
     <style jsx global>{`
       html {
